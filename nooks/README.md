@@ -8,5 +8,5 @@
 - [x] useHover
 - [x] useConfirm
 - [x] usePreventLeave
-
+- [x] useBeforeLeave
 - - -

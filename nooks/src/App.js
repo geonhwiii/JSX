@@ -1,14 +1,12 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
-import { useInput } from './components/useInput';
 
 const App = () => {
-  const maxLen = value => !value.includes('@');
-  const name = useInput("Mr.", maxLen)
+  const titleUpdater = useTitle("Loading...");
+  setTimeout(() => titleUpdater("Home"), 5000)
   return (
     <>
-      <h1>Hello</h1>
-      <input type="text" placeholder="Name" {...name}/>
+      <h1>Hi</h1>
     </>
   );
 }

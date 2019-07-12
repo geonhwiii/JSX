@@ -11,8 +11,6 @@ const ExUseState = () => {
       <button onClick={decrementItem}>-</button>
     </>
   )
-
-
 }
 
 export default ExUseState;
